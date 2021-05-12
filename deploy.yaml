@@ -16,7 +16,7 @@ spec:
         app: modelisation
     spec:
       containers:
-      - image: dockersamples/examplevotingapp_vote:before
+      - image: mxsamak/modelisationclean:latest
         name: modelisation
         resources:
           limits:
