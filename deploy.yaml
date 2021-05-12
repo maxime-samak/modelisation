@@ -4,7 +4,7 @@ metadata:
   labels:
     app: modelisation
   name: modelisation
-  namespace: modelisation
+  namespace: argocd
 spec:
   replicas: 2
   selector:
